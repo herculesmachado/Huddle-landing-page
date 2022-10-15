@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+// COLORS ===============
+@Pink: hsl(322, 100%, 66%);
+@title-and-subtitle: hsl(192, 100%, 9%);
+
+// GERAL PAGE ===============
+
+body {
+    height: 100vh;
+    font-family: 'Open Sans', sans-serif;
+
+    // 400 - 600 - 700
+}
+
+button {
+    background-color:@Pink ;
+    color: white;
+    border: 0;
+    border-radius: 25px;
+    padding: 16px 68px;
+    font-weight: 700;
+
+}
+
+h1, h2, h3 {
+    color: @title-and-subtitle;
+}
+
+//HEADER 
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 60px;
+
+    img {
+        width: 200px;
+    }
+
+    .navbar {
+        li {
+            border: 1px solid @Pink;
+            color: @Pink;
+            padding: 8px 26px;
+            border-radius: 25px;
+        }
+        
+        a {
+            text-decoration: none;
+        }
+    }
+}
+
+// MAIN
+
+main {
+    padding: 0 100px;
+
+    .textMain {
+        text-align: center;
+        margin: 150px 0 75px 0;
+
+        h1 {
+            font-size: 46px;
+            font-weight: 700;
+            margin-bottom: 35px;
+        }
+
+        p {
+            padding: 0 375px;
+            margin-bottom: 35px;
+
+        }
+    }
+
+    .vetor {
+        display: flex;
+        margin: auto;
+        width: 800px;
+    }
+
+    .datas {
+        display: flex;
+        margin: 50px auto;
+        justify-content: space-evenly;
+
+        h2 {
+            font-size: 68px;
+        }
+
+        p {
+            text-align: center;
+        }
+    }
+
+    .cases {
+        // I stop here!!
+    }
+
+}
+
+
+
+
