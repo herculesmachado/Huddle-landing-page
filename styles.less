@@ -8,6 +8,7 @@
 // COLORS ===============
 @Pink: hsl(322, 100%, 66%);
 @title-and-subtitle: hsl(192, 100%, 9%);
+@bg-footer: hsl(192, 100%, 9%);
 
 // GERAL PAGE ===============
 
@@ -74,8 +75,9 @@ main {
         }
 
         p {
-            padding: 0 375px;
-            margin-bottom: 35px;
+            width: 475px;
+            margin: 0 auto 35px;
+            
 
         }
     }
@@ -101,9 +103,77 @@ main {
     }
 
     .cases {
-        // I stop here!!
+        margin: 200px auto;
+
+        h2 {
+            font-size: 32px;
+            margin-bottom: 20px; 
+        }
+
+
+        img {
+            width: 500px;
+        }
+
+        .info-case {
+            display: block;
+        }
+
+        .case1 {
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+
+            p {
+                width: 500px;
+            }
+        }
+
+        .case2 {
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+
+            p {
+                width: 512px;
+            }
+        }
+
+        .case3 {
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+
+            p {
+                width: 500px;
+            }
+        }
     }
 
+    .communities {
+        text-align: center;
+        margin-bottom: 75px;
+
+        h2 {
+            font-size: 38px;
+            margin-bottom: 30px;
+        }
+    }
+
+}
+
+// FOOTER 
+
+footer {
+
+    .bg-footer {
+        width: 100%;
+    }
+
+    .info-footer {
+        background-color: @bg-footer;
+        
+    }
 }
 
 
