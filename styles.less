@@ -17,6 +17,12 @@
     flex-direction: column;
 }
 
+.flexbox-direction-responsive {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
 .flexbox-align {
     display: flex;
     align-items: center;
@@ -257,6 +263,39 @@ footer {
             gap: 10px;
         }
     }
+}
+
+// Responsive
+
+@media (min-width: 1024px) {
+
+}
+
+@media (min-width: 768px) {
+    main {
+        .cases {
+
+            .case1, .case3 {
+                .flexbox-direction-responsive();
+            }
+
+            .case2 {
+                margin: 50px auto;
+                .flexbox-directions();
+                gap: 50px;
+                flex-direction: column-reverse;
+            }
+
+            img {
+                width: 400px;
+            }
+
+        } 
+    } 
+}
+
+@media (min-width: 425px) {
+
 }
 
 
